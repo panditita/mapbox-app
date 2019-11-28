@@ -1,0 +1,63 @@
+#blog-iframe {
+  height: 100vh;
+}
+
+.absolute { position: absolute };
+
+.top {
+  top: 0
+}
+.right {
+  right: 0
+}
+.left {
+  left: 0
+}
+
+.loading {
+  position: absolute;
+  display: flex;
+  // align-items: center;
+  padding: 3rem;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.no-bullet-list, .no-style-list { list-style-type: none };
+
+.row-or-column {
+  @include breakpoint(small only){
+    flex-direction: column;
+  }
+
+  @include breakpoint(medium up){
+    flex-direction: row;
+  }
+}
+
+.disclaimer {
+  max-width: 80%;
+}
+
+
+#share-idea {
+  height: 100%;
+  width: 100%;
+  position: fixed !important;
+}
+
+#confirm-report {
+  // top: 20%;
+  // right: 10%;
+  // border-radius: $global-radius;
+  // position: fixed !important;
+}
+
+.disable-hover {
+  @include hover { cursor: not-allowed };
+}
+
+.border-radius {
+  border-radius: $global-radius;
+}

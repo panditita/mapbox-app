@@ -1,0 +1,37 @@
+html, body {
+  // height: 100vh;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.content {
+  @include breakpoint(small only){
+    width: 100%;
+  }
+
+  @include breakpoint(medium up) {
+    margin: 2rem;
+    max-width: rem-calc(750);
+    min-width: rem-calc(545);
+
+    border: solid 1px $black;
+    border-radius: $global-radius;
+  }
+
+}

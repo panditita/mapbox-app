@@ -1,0 +1,48 @@
+.primary-background, .primary-bg {
+  background-color: $primary-color;
+
+  * {
+    color: $cream;
+  }
+}
+.secondary-background, .secondary-bg { background-color: $secondary-color };
+
+.black-background, .black-bg {
+  background-color: $black;
+
+  * {
+    color: $white;
+  }
+}
+.white-background, .white-bg {
+  background-color: $white;
+
+  * {
+    color: $black;
+  }
+}
+
+.image-background, .image-bg {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -99999;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.medium-gray-trans-bg, .medium-gray-trans-background {
+  background-color: $medium-gray-trans;
+}
+.lighter-gray-trans-bg, .lighter-gray-trans-background {
+  background-color: $lighter-gray-trans;
+}
+
+.george-sq-background {
+  background-image: asset-url('background.jpg')
+}

@@ -1,0 +1,30 @@
+@mixin hover {
+  &:hover,
+  &:focus,
+  &:active {
+    @content;
+  }
+}
+
+$highlight-bg-start-opacity: 0.25;
+$highlight-bg-end-opacity: 0.75;
+
+@-webkit-keyframes fade-in {
+  0% { opacity: $highlight-bg-start-opacity; }
+  100% { opacity: $highlight-bg-end-opacity; }
+}
+
+@-moz-keyframes fade-in {
+  0% { opacity: $highlight-bg-start-opacity; }
+  100% { opacity: $highlight-bg-end-opacity; }
+}
+
+@-o-keyframes fade-in {
+  0% { opacity: $highlight-bg-start-opacity; }
+  100% { opacity: $highlight-bg-end-opacity; }
+}
+
+@keyframes fade-in {
+  0% { opacity: $highlight-bg-start-opacity; }
+  100% { opacity: $highlight-bg-end-opacity; }
+}
