@@ -19,7 +19,7 @@ require("channels")
 
 
 require('foundation-sites');
-require("app/init_map");
+require("app/map");
 
 
 $(document).on('turbolinks:load', function() {

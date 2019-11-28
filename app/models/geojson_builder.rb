@@ -1,7 +1,7 @@
 class GeojsonBuilder < ApplicationRecord
     def build_place(place, geojson)
         geojson << {
-            type: "FeatureCollection",
+            type: "Feature",
             geometry: {
                 type: "Point",
                 coordinates: [
@@ -10,7 +10,9 @@ class GeojsonBuilder < ApplicationRecord
                 ],
             }
             properties: {
-                neighborhood_name
+                state: place.name,
+                population: place.population,
+                marker-symbol: 'circle'
             }
         }
         
