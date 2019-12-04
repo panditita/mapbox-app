@@ -28,4 +28,4 @@ To run this project:
 * Recreate the database `rails db:setup db:create db:migrate`
 * Finally `rails server` to run it in your localhost
 
-*Please note that you'll need to create an account with mapbox to generate a token and use it in the application
+*Please note that you'll need to create an account with MapBox to generate a token and use it in the application
