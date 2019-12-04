@@ -1,0 +1,39 @@
+.title-bar-title,
+li.menu-text {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.top-bar#example-menu,
+.top-bar-left,
+.top-bar-right {
+  z-index: 2;
+  display: flex;
+  background-color: black;
+}
+
+ul.no-bullet {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+}
+
+a {
+  color: white;
+}
+.button {
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (max-width: 750px) {
+  .title-bar {
+    z-index: 1;
+    display: block !important;
+  }
+
+  #example-menu {
+    display: none !important;
+  }
+}

@@ -1,0 +1,21 @@
+.title-bar{"data-hide-for" => "medium", "data-responsive-toggle" => "example-menu"}
+  %button.menu-icon{"data-toggle" => "", :type => "button"}
+  .title-bar-title.mpl.mpr Mapita
+#example-menu.top-bar
+  .top-bar-left
+    %ul.no-bullet
+      %li.menu-text.lpl.lpr Mapita
+      %li.lpl.lpr
+        = link_to root_path do 
+          Home
+      %li.lpl.lpr
+        = link_to custom_map_path do 
+          Map
+      %li.lpl.lpr
+        %a Contact
+  .top-bar-right
+    %ul.menu
+      %li
+        %input{:placeholder => "Search", :type => "search"}/
+      %li
+        %button.button{:type => "button"} Search

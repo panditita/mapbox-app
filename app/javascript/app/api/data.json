@@ -1,0 +1,260 @@
+{
+    "estados": [
+        {
+            "id": "1",
+            "name": "Aguascalientes",
+            "abbreviation": "Ags.",
+            "lat": "21.8823395",
+            "lng": "-102.2825928",
+            "population": "1,316,032"
+        },
+        {
+            "id": "2",
+            "name": "Baja California",
+            "abbreviation": "BC",
+            "lat": "30.8406338",
+            "lng": "-115.2837585",
+            "population": "3,584,605"
+        },
+        {
+            "id": "3",
+            "name": "Baja California Sur",
+            "abbreviation": "BCS",
+            "lat": "26.0444446",
+            "lng": "-115.2837585",
+            "population": "809,833"
+        },
+        {
+            "id": "4",
+            "name": "Campeche",
+            "abbreviation": "Camp.",
+            "lat": "19.8301251",
+            "lng": "-90.5349087",
+            "population": "935,047"
+        },
+        {
+            "id": "5",
+            "name": "Coahuila de Zaragoza",
+            "abbreviation": "Coah.",
+            "lat": "27.058676",
+            "lng": "-101.7068294",
+            "population": "3,029,740"
+        },
+        {
+            "id": "6",
+            "name": "Colima",
+            "abbreviation": "Col.",
+            "lat": "19.2452342",
+            "lng": "-103.7240868",
+            "population": "747,801"
+        },
+        {
+            "id": "7",
+            "name": "Chiapas",
+            "abbreviation": "Chis.",
+            "lat": "16.7569318",
+            "lng": "-93.1292353",
+            "population": "5,382,083"
+        },
+        {
+            "id": "8",
+            "name": "Chihuahua",
+            "abbreviation": "Chih.",
+            "lat": "28.6329957",
+            "lng": "-106.0691004",
+            "population": "3,782,018"
+        },
+        {
+            "id": "9",
+            "name": "Ciudad de México",
+            "abbreviation": "CDMX",
+            "lat": "19.4326077",
+            "lng": "-99.133208",
+            "population": "8,811,266"
+        },
+        {
+            "id": "10",
+            "name": "Durango",
+            "abbreviation": "Dgo.",
+            "lat": "24.5592665",
+            "lng": "-104.6587821",
+            "population": "1,799,320"
+        },
+        {
+            "id": "11",
+            "name": "Guanajuato",
+            "abbreviation": "Gto.",
+            "lat": "21.0190145",
+            "lng": "-101.2573586",
+            "population": "5,908,845"
+        },
+        {
+            "id": "12",
+            "name": "Guerrero",
+            "abbreviation": "Gro.",
+            "lat": "17.4391926",
+            "lng": "-99.5450974",
+            "population": "3,607,210"
+        },
+        {
+            "id": "13",
+            "name": "Hidalgo",
+            "abbreviation": "Hgo.",
+            "lat": "20.0910963",
+            "lng": "-98.7623874",
+            "population": "2,947,206"
+        },
+        {
+            "id": "14",
+            "name": "Jalisco",
+            "abbreviation": "Jal.",
+            "lat": "20.6595382",
+            "lng": "-103.3494376",
+            "population": "8,110,943"
+        },
+        {
+            "id": "15",
+            "name": "México",
+            "abbreviation": "Mex.",
+            "lat": "19.4968732",
+            "lng": "-99.7232673",
+            "population": "17,363,387"
+        },
+        {
+            "id": "16",
+            "name": "Michoacán de Ocampo",
+            "abbreviation": "Mich.",
+            "lat": "19.5665192",
+            "lng": "-101.7068294",
+            "population": "4,658,159"
+        },
+        {
+            "id": "17",
+            "name": "Morelos",
+            "abbreviation": "Mor.",
+            "lat": "18.6813049",
+            "lng": "-99.1013498",
+            "population": "1,965,487"
+        },
+        {
+            "id": "18",
+            "name": "Nayarit",
+            "abbreviation": "Nay.",
+            "lat": "21.7513844",
+            "lng": "-104.8454619",
+            "population": "1,268,460"
+        },
+        {
+            "id": "19",
+            "name": "Nuevo León",
+            "abbreviation": "NL",
+            "lat": "25.592172",
+            "lng": "-99.9961947",
+            "population": "5,229,492"
+        },
+        {
+            "id": "20",
+            "name": "Oaxaca",
+            "abbreviation": "Oax.",
+            "lat": "17.0731842",
+            "lng": "-96.7265889",
+            "population": "4,061,497"
+        },
+        {
+            "id": "21",
+            "name": "Puebla",
+            "abbreviation": "Pue.",
+            "lat": "19.0414398",
+            "lng": "-98.2062727",
+            "population": "6,313,789"
+        },
+        {
+            "id": "22",
+            "name": "Querétaro",
+            "abbreviation": "Qro.",
+            "lat": "20.5887932",
+            "lng": "-100.3898881",
+            "population": "2,063,148"
+        },
+        {
+            "id": "23",
+            "name": "Quintana Roo",
+            "abbreviation": "Q. Roo",
+            "lat": "19.1817393",
+            "lng": "-88.4791376",
+            "population": "1,664,667"
+        },
+        {
+            "id": "24",
+            "name": "San Luis Potosí",
+            "abbreviation": "SLP",
+            "lat": "22.1564699",
+            "lng": "-100.9855409",
+            "population": "2,801,839"
+        },
+            {
+            "id": "25",
+            "name": "Sinaloa",
+            "abbreviation": "Sin.",
+            "lat": "25.1721091",
+            "lng": "-107.4795173",
+            "population": "3,034,942"
+        },
+        {
+            "id": "26",
+            "name": "Sonora",
+            "abbreviation": "Son.",
+            "lat": "29.2972247",
+            "lng": "-110.3308814",
+            "population": "3,011,810"
+        },
+        {
+            "id": "27",
+            "name": "Tabasco",
+            "abbreviation": "Tab.",
+            "lat": "17.8409173",
+            "lng": "-92.6189273",
+            "population": "2,431,339"
+        },
+        {
+            "id": "28",
+            "name": "Tamaulipas",
+            "abbreviation": "Tamps.",
+            "lat": "24.26694",
+            "lng": "-98.8362755",
+            "population": "3,622,605"
+        },
+        {
+            "id": "29",
+            "name": "Tlaxcala",
+            "abbreviation": "Tlax.",
+            "lat": "19.318154",
+            "lng": "-98.2374954",
+            "population": "1,313,067"
+        },
+        {
+            "id": "30",
+            "name": "Veracruz de Ignacio de la Llave",
+            "abbreviation": "Ver.",
+            "lat": "19.173773",
+            "lng": "-96.1342241",
+            "population": "8,163,963"
+        },
+        {
+            "id": "31",
+            "name": "Yucatán",
+            "abbreviation": "Yuc.",
+            "lat": "20.7098786",
+            "lng": "-89.0943377",
+            "population": "2,172,839"
+        },
+        {
+            "id": "32",
+            "name": "Zacatecas",
+            "abbreviation": "Zac.",
+            "lat": "22.7708555",
+            "lng": "-102.5832426",
+            "population": "1,600,412"
+        }
+    ]
+}

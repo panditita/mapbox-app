@@ -1,7 +1,7 @@
 import mapboxgl from "mapbox-gl";
 
 mapboxgl.accessToken =
-  "MAPBOX_ENV_TOKEN";
+  "";
 
 const loadMap = () => {
   const map = document.getElementById("map");

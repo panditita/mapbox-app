@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  state: MyString
+  population: MyString
+  abbreviation: MyString
+  lng: 9.99
+  lat: 9.99
+
+two:
+  state: MyString
+  population: MyString
+  abbreviation: MyString
+  lng: 9.99
+  lat: 9.99

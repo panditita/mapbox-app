@@ -1,19 +1,6 @@
 class MapController < ApplicationController
   def index
-    @maps = Map.all
-    @geojson = Array.new
-    build_geojson(place, @geojson)
-    end
-
-    respond_to do | format |
-      format.hml
-      format.json { render json: @geojson}
+    @maps = Map.all.map do | m | m.build_geojson end
+    render json: {type: "FeaturedCollection", features: @maps  }
   end
-
-  def build_geojson (place, geojson)
-    places.each do | place |
-      geojson << GeojsonBuilder.build_place(place)
-    end
-  end
-  
 end
