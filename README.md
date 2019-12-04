@@ -21,7 +21,7 @@ To run this project:
 * Git clone to download it locally
 * Check your ruby version using `ruby -v`, if upgrade needed use `brew upgrade ruby`
 * Install Rails using `gem install rails`
-* On your project directory run to install all the dependencies needed:
+* On your project directory run to install all the dependencies needed:<br/>
     **1 -**  `gem install bundler` <br/>
     **2 -** `bundle install`<br/>
     **3 -** `yarn install --check-files`<br/>
