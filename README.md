@@ -24,7 +24,7 @@ To run this project:
 * On your project directory run to install all the dependencies needed:
     **1 - **  `gem install bundler`\
     **2 - ** `bundle install`\
-    **3 - ** `yarn install --check-files`\
+    **3 - ** `yarn install --check-files`|
 * Recreate the database `rails db:setup db:create db:migrate`
 * Finally `rails server` to run it in your localhost
 
