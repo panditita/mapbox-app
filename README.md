@@ -22,9 +22,9 @@ To run this project:
 * Check your ruby version using `ruby -v`, if upgrade needed use `brew upgrade ruby`
 * Install Rails using `gem install rails`
 * On your project directory run to install all the dependencies needed:
-    [**1 - ]  `gem install bundler`
-    [**2 - ] `bundle install`
-    [**3 - ] `yarn install --check-files`
+    [**1 - **]  `gem install bundler`
+    [**2 - **] `bundle install`
+    [**3 - **] `yarn install --check-files`
 * Recreate the database `rails db:setup db:create db:migrate`
 * Finally `rails server` to run it in your localhost
 
