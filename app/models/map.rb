@@ -5,13 +5,15 @@ class Map < ApplicationRecord
   validates :population, presence: true
   validates :abbreviation, presence: true
 
-  def build_geojson {
+  def build_geojson
+    {
         type: "Feature",
         geometry: {
             type: "Point",
             coordinates: [
             lng,
-            lat]
+            lat
+            ]
         },
         properties: {
             id: id,
@@ -21,15 +23,4 @@ class Map < ApplicationRecord
         }
     }
   end
-
-  def self.attributable_params
-    [
-      :lat,
-      :lng,
-      :state,
-      :population,
-      :abbreviation
-    ]
-  end
-
 end

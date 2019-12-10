@@ -5,20 +5,20 @@ class GeojsonBuilder < ApplicationRecord
     validates :population, presence: true
     validates :abbreviation, presence: true
 
-    def build_place(place, geojson)
+    def build_point(point, geojson)
         geojson << {
             type: "Feature",
             geometry: {
                 type: "Point",
                 coordinates: [
-                    place.lng,
-                    place.lat
+                    point.lng,
+                    point.lat
                 ],
             }
             properties: {
-                state: place.name,
-                population: place.population,
-                abbreviation: place.abbreviation,
+                state: point.name,
+                population: point.population,
+                abbreviation: point.abbreviation,
                 marker-symbol: 'circle',
                 marker-color: "",
                 marker-size: "medium"
