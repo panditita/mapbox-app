@@ -6,15 +6,15 @@ const loadMap = () => {
 
   if (mapContainer) {
       var map = mapSetup(mapContainer);
-      map.on('load', renderPlaces);
+      map.on('load', renderPlaces(map));
         
       console.log(`${map} adentro de Loadmap`)
   }
 };
 
-const mapSetup = function(){
+const mapSetup = () => {
     mapboxgl.accessToken =
-    "";
+    "pk.eyJ1IjoiZXR6YWxpIiwiYSI6ImNrM2lsdHhkNjA3NWQza28xM3JqcmRhNG0ifQ.PlTOfeKllnAH4Pn9ppkZ_Q";
   return new mapboxgl.Map({
     container: "custom-map",
     style: "mapbox://styles/etzali/ck3r9cmoc07gj1cmsddt1oixg/draft",
@@ -23,9 +23,11 @@ const mapSetup = function(){
   });
 }
 
-const renderPlaces = () => {
+const renderPlaces = (map) => {
   const layerId = "states";
   const data = "/api/data.json";
+
+  console.log(`${map} adentro de renderPlaces`);
 
   map.addSource(layerId, {
     type: "geojson",
@@ -37,22 +39,10 @@ const renderPlaces = () => {
       id: layerId,
       type: "circle",
       source: data,
-      "source-layer": data,
-      paint: {
-        "circle-radius": {
-          base: 1.75,
-          stops: [
-            [12, 2],
-            [22, 180]
-          ]
-        },
-        "circle-color": "turquoise"
-      }
-    },
-    "waterway-label"
+      "circle-color": "turquoise"
+    }
   );
 
-  console.log(`${map} adentro de renderPlaces`);
 };
 
 
