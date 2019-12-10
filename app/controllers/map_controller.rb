@@ -3,6 +3,11 @@ class MapController < ApplicationController
     @maps = Map.all.map 
     @geojson = Array.new
     build_geojson(@maps, @geojson)
+
+    respond_to do |format|
+      format.html
+      format.json { render json: @geojson}
+    end
   end
 
   def build_geojson(points, geojson)
