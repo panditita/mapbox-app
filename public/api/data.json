@@ -1,260 +1,519 @@
 {
-    "states": [
+    "type": "FeatureCollection",
+    "features": [
         {
-            "id": "1",
-            "name": "Aguascalientes",
-            "abbreviation": "Ags.",
-            "lat": "21.8823395",
-            "lng": "-102.2825928",
-            "population": "1,316,032"
+            "type": "Feature",
+            "properties": {
+                "id": "1",
+                "name": "Aguascalientes",
+                "abbreviation": "Ags.",
+                "population": "1,316,032"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.8823395,
+                    -102.2825928
+                ]
+            }
         },
         {
-            "id": "2",
-            "name": "Baja California",
-            "abbreviation": "BC",
-            "lat": "30.8406338",
-            "lng": "-115.2837585",
-            "population": "3,584,605"
+            "type": "Feature",
+            "properties": {
+                "id": "2",
+                "name": "Baja California",
+                "abbreviation": "BC",
+                "population": "3,584,605"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.8406338,
+                    -115.2837585
+                ]
+            }
         },
         {
-            "id": "3",
-            "name": "Baja California Sur",
-            "abbreviation": "BCS",
-            "lat": "26.0444446",
-            "lng": "-115.2837585",
-            "population": "809,833"
+            "type": "Feature",
+            "properties": {
+                "id": "3",
+                "name": "Baja California Sur",
+                "abbreviation": "BCS",
+                "population": "809,833"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.0444446,
+                    -115.2837585
+                ]
+            }
         },
         {
-            "id": "4",
-            "name": "Campeche",
-            "abbreviation": "Camp.",
-            "lat": "19.8301251",
-            "lng": "-90.5349087",
-            "population": "935,047"
+            "type": "Feature",
+            "properties": {
+                "id": "4",
+                "name": "Campeche",
+                "abbreviation": "Camp.",
+                "population": "935,047"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.8301251,
+                    -90.5349087
+                ]
+            }
         },
         {
-            "id": "5",
-            "name": "Coahuila de Zaragoza",
-            "abbreviation": "Coah.",
-            "lat": "27.058676",
-            "lng": "-101.7068294",
-            "population": "3,029,740"
+            "type": "Feature",
+            "properties": {
+                "id": "5",
+                "name": "Coahuila de Zaragoza",
+                "abbreviation": "Coah.",
+                "population": "3,029,740"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.058676,
+                    -101.7068294
+                ]
+            }
         },
         {
-            "id": "6",
-            "name": "Colima",
-            "abbreviation": "Col.",
-            "lat": "19.2452342",
-            "lng": "-103.7240868",
-            "population": "747,801"
+            "type": "Feature",
+            "properties": {
+                "id": "6",
+                "name": "Colima",
+                "abbreviation": "Col.",
+                "population": "747,801"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.2452342,
+                    -103.7240868
+                ]
+            }
         },
         {
-            "id": "7",
-            "name": "Chiapas",
-            "abbreviation": "Chis.",
-            "lat": "16.7569318",
-            "lng": "-93.1292353",
-            "population": "5,382,083"
+            "type": "Feature",
+            "properties": {
+                "id": "7",
+                "name": "Chiapas",
+                "abbreviation": "Chis.",
+                "population": "5,382,083"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.7569318,
+                    -93.1292353
+                ]
+            }
         },
         {
-            "id": "8",
-            "name": "Chihuahua",
-            "abbreviation": "Chih.",
-            "lat": "28.6329957",
-            "lng": "-106.0691004",
-            "population": "3,782,018"
+            "type": "Feature",
+            "properties": {
+                "id": "8",
+                "name": "Chihuahua",
+                "abbreviation": "Chih.",
+                "population": "3,782,018"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.6329957,
+                    -106.0691004
+                ]
+            }
         },
         {
-            "id": "9",
-            "name": "Ciudad de México",
-            "abbreviation": "CDMX",
-            "lat": "19.4326077",
-            "lng": "-99.133208",
-            "population": "8,811,266"
+            "type": "Feature",
+            "properties": {
+                "id": "9",
+                "name": "Ciudad de México",
+                "abbreviation": "CDMX",
+                "population": "8,811,266"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.4326077,
+                    -99.133208
+                ]
+            }
         },
         {
-            "id": "10",
-            "name": "Durango",
-            "abbreviation": "Dgo.",
-            "lat": "24.5592665",
-            "lng": "-104.6587821",
-            "population": "1,799,320"
+            "type": "Feature",
+            "properties": {
+                "id": "10",
+                "name": "Durango",
+                "abbreviation": "Dgo.",
+                "population": "1,799,320"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.5592665,
+                    -104.6587821
+                ]
+            }
         },
         {
-            "id": "11",
-            "name": "Guanajuato",
-            "abbreviation": "Gto.",
-            "lat": "21.0190145",
-            "lng": "-101.2573586",
-            "population": "5,908,845"
+            "type": "Feature",
+            "properties": {
+                "id": "11",
+                "name": "Guanajuato",
+                "abbreviation": "Gto.",
+                "population": "5,908,845"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.0190145,
+                    -101.2573586
+                ]
+            }
         },
         {
-            "id": "12",
-            "name": "Guerrero",
-            "abbreviation": "Gro.",
-            "lat": "17.4391926",
-            "lng": "-99.5450974",
-            "population": "3,607,210"
+            "type": "Feature",
+            "properties": {
+                "id": "12",
+                "name": "Guerrero",
+                "abbreviation": "Gro.",
+                "population": "3,607,210"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.4391926,
+                    -99.5450974
+                ]
+            }
         },
         {
-            "id": "13",
-            "name": "Hidalgo",
-            "abbreviation": "Hgo.",
-            "lat": "20.0910963",
-            "lng": "-98.7623874",
-            "population": "2,947,206"
+            "type": "Feature",
+            "properties": {
+                "id": "13",
+                "name": "Hidalgo",
+                "abbreviation": "Hgo.",
+                "population": "2,947,206"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.0910963,
+                    -98.7623874
+                ]
+            }
         },
         {
-            "id": "14",
-            "name": "Jalisco",
-            "abbreviation": "Jal.",
-            "lat": "20.6595382",
-            "lng": "-103.3494376",
-            "population": "8,110,943"
+            "type": "Feature",
+            "properties": {
+                "id": "14",
+                "name": "Jalisco",
+                "abbreviation": "Jal.",
+                "population": "8,110,943"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.6595382,
+                    -103.3494376
+                ]
+            }
         },
         {
-            "id": "15",
-            "name": "México",
-            "abbreviation": "Mex.",
-            "lat": "19.4968732",
-            "lng": "-99.7232673",
-            "population": "17,363,387"
+            "type": "Feature",
+            "properties": {
+                "id": "15",
+                "name": "México",
+                "abbreviation": "Mex.",
+                "population": "17,363,387"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.4968732,
+                    -99.7232673
+                ]
+            }
         },
         {
-            "id": "16",
-            "name": "Michoacán de Ocampo",
-            "abbreviation": "Mich.",
-            "lat": "19.5665192",
-            "lng": "-101.7068294",
-            "population": "4,658,159"
+            "type": "Feature",
+            "properties": {
+                "id": "16",
+                "name": "Michoacán de Ocampo",
+                "abbreviation": "Mich.",
+                "population": "4,658,159"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.5665192,
+                    -101.7068294
+                ]
+            }
         },
         {
-            "id": "17",
-            "name": "Morelos",
-            "abbreviation": "Mor.",
-            "lat": "18.6813049",
-            "lng": "-99.1013498",
-            "population": "1,965,487"
+            "type": "Feature",
+            "properties": {
+                "id": "17",
+                "name": "Morelos",
+                "abbreviation": "Mor.",
+                "population": "1,965,487"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.6813049,
+                    -99.1013498
+                ]
+            }
         },
         {
-            "id": "18",
-            "name": "Nayarit",
-            "abbreviation": "Nay.",
-            "lat": "21.7513844",
-            "lng": "-104.8454619",
-            "population": "1,268,460"
+            "type": "Feature",
+            "properties": {
+                "id": "18",
+                "name": "Nayarit",
+                "abbreviation": "Nay.",
+                "population": "1,268,460"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.7513844,
+                    -104.8454619
+                ]
+            }
         },
         {
-            "id": "19",
-            "name": "Nuevo León",
-            "abbreviation": "NL",
-            "lat": "25.592172",
-            "lng": "-99.9961947",
-            "population": "5,229,492"
+            "type": "Feature",
+            "properties": {
+                "id": "19",
+                "name": "Nuevo León",
+                "abbreviation": "NL",
+                "population": "5,229,492"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.592172,
+                    -99.9961947
+                ]
+            }
         },
         {
-            "id": "20",
-            "name": "Oaxaca",
-            "abbreviation": "Oax.",
-            "lat": "17.0731842",
-            "lng": "-96.7265889",
-            "population": "4,061,497"
+            "type": "Feature",
+            "properties": {
+                "id": "20",
+                "name": "Oaxaca",
+                "abbreviation": "Oax.",
+                "population": "4,061,497"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0731842,
+                    -96.7265889
+                ]
+            }
         },
         {
-            "id": "21",
-            "name": "Puebla",
-            "abbreviation": "Pue.",
-            "lat": "19.0414398",
-            "lng": "-98.2062727",
-            "population": "6,313,789"
+            "type": "Feature",
+            "properties": {
+                "id": "21",
+                "name": "Puebla",
+                "abbreviation": "Pue.",
+                "population": "6,313,789"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0414398,
+                    -98.2062727
+                ]
+            }
         },
         {
-            "id": "22",
-            "name": "Querétaro",
-            "abbreviation": "Qro.",
-            "lat": "20.5887932",
-            "lng": "-100.3898881",
-            "population": "2,063,148"
+            "type": "Feature",
+            "properties": {
+                "id": "22",
+                "name": "Querétaro",
+                "abbreviation": "Qro.",
+                "population": "2,063,148"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.5887932,
+                    -100.3898881
+                ]
+            }
         },
         {
-            "id": "23",
-            "name": "Quintana Roo",
-            "abbreviation": "Q. Roo",
-            "lat": "19.1817393",
-            "lng": "-88.4791376",
-            "population": "1,664,667"
+            "type": "Feature",
+            "properties": {
+                "id": "23",
+                "name": "Quintana Roo",
+                "abbreviation": "Q. Roo",
+                "population": "1,664,667"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.1817393,
+                    -88.4791376
+                ]
+            }
         },
         {
-            "id": "24",
-            "name": "San Luis Potosí",
-            "abbreviation": "SLP",
-            "lat": "22.1564699",
-            "lng": "-100.9855409",
-            "population": "2,801,839"
-        },
-            {
-            "id": "25",
-            "name": "Sinaloa",
-            "abbreviation": "Sin.",
-            "lat": "25.1721091",
-            "lng": "-107.4795173",
-            "population": "3,034,942"
-        },
-        {
-            "id": "26",
-            "name": "Sonora",
-            "abbreviation": "Son.",
-            "lat": "29.2972247",
-            "lng": "-110.3308814",
-            "population": "3,011,810"
+            "type": "Feature",
+            "properties": {
+                "id": "24",
+                "name": "San Luis Potosí",
+                "abbreviation": "SLP",
+                "lat": "22.1564699",
+                "lng": "-100.9855409",
+                "population": "2,801,839"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.1564699,
+                    -100.9855409
+                ]
+            }
         },
         {
-            "id": "27",
-            "name": "Tabasco",
-            "abbreviation": "Tab.",
-            "lat": "17.8409173",
-            "lng": "-92.6189273",
-            "population": "2,431,339"
+            "type": "Feature",
+            "properties": {
+                "id": "25",
+                "name": "Sinaloa",
+                "abbreviation": "Sin.",
+                "population": "3,034,942"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.1721091,
+                    -107.4795173
+                ]
+            }
         },
         {
-            "id": "28",
-            "name": "Tamaulipas",
-            "abbreviation": "Tamps.",
-            "lat": "24.26694",
-            "lng": "-98.8362755",
-            "population": "3,622,605"
+            "type": "Feature",
+            "properties": {
+                "id": "26",
+                "name": "Sonora",
+                "abbreviation": "Son.",
+                "population": "3,011,810"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.2972247,
+                    -110.3308814
+                ]
+            }
         },
         {
-            "id": "29",
-            "name": "Tlaxcala",
-            "abbreviation": "Tlax.",
-            "lat": "19.318154",
-            "lng": "-98.2374954",
-            "population": "1,313,067"
+            "type": "Feature",
+            "properties": {
+                "id": "27",
+                "name": "Tabasco",
+                "abbreviation": "Tab.",
+                "population": "2,431,339"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.8409173,
+                    -92.6189273
+                ]
+            }
         },
         {
-            "id": "30",
-            "name": "Veracruz de Ignacio de la Llave",
-            "abbreviation": "Ver.",
-            "lat": "19.173773",
-            "lng": "-96.1342241",
-            "population": "8,163,963"
+            "type": "Feature",
+            "properties": {
+                "id": "28",
+                "name": "Tamaulipas",
+                "abbreviation": "Tamps.",
+                "population": "3,622,605"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.26694,
+                    -98.8362755
+                ]
+            }
         },
         {
-            "id": "31",
-            "name": "Yucatán",
-            "abbreviation": "Yuc.",
-            "lat": "20.7098786",
-            "lng": "-89.0943377",
-            "population": "2,172,839"
+            "type": "Feature",
+            "properties": {
+                "id": "29",
+                "name": "Tlaxcala",
+                "abbreviation": "Tlax.",
+                "population": "1,313,067"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.318154,
+                    -98.2374954
+                ]
+            }
         },
         {
-            "id": "32",
-            "name": "Zacatecas",
-            "abbreviation": "Zac.",
-            "lat": "22.7708555",
-            "lng": "-102.5832426",
-            "population": "1,600,412"
+            "type": "Feature",
+            "properties": {
+                "id": "30",
+                "name": "Veracruz de Ignacio de la Llave",
+                "abbreviation": "Ver.",
+                "population": "8,163,963"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.173773,
+                    -96.1342241
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "31",
+                "name": "Yucatán",
+                "abbreviation": "Yuc.",
+                "population": "2,172,839"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.7098786,
+                    -89.0943377
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "32",
+                "name": "Zacatecas",
+                "abbreviation": "Zac.",
+                "population": "1,600,412"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.7708555,
+                    -102.5832426
+                ]
+            }
         }
     ]
 }
